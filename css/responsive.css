@@ -1,0 +1,291 @@
+/*--------------------------------------------------------------------- 
+File Name: responsive.css 
+---------------------------------------------------------------------*/
+
+@media (min-width: 1343px) and (max-width: 1500px) {
+    .full_bg {
+        height: 100%;
+    }
+    #banner1 .carousel-control-next {
+        right: 43.7%;
+    }
+    #myCarousel .carousel-control-next {
+        right: 43.7%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1342px) {
+    .full_bg {
+        height: 100%;
+    }
+    #banner1 .carousel-control-next {
+        right: 42.1%;
+    }
+    #myCarousel .carousel-control-next {
+        right: 42.1%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .full_bg {
+        height: 100%;
+    }
+    .site-navbar ul li {
+        padding-right: 57px;
+    }
+    .mar_right {
+        margin-right: 0;
+    }
+    .creative .read_more {
+        max-width: 185px;
+        margin-right: 0;
+    }
+    #banner1 .carousel-control-next {
+        right: 39.1%;
+    }
+    #myCarousel .carousel-control-next {
+        right: 39.1%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .full_bg {
+        height: 100%;
+    }
+    .site-navbar ul li {
+        padding-right: 31px;
+    }
+    .mar_right {
+        margin-right: 0;
+    }
+    .creative h1 {
+        font-size: 56px;
+        line-height: 70px;
+    }
+    .creative p {
+        padding: 5px 0 15px 0;
+    }
+    .creative .read_more {
+        max-width: 142px;
+        margin-right: 0;
+    }
+    #banner1 .carousel-control-next {
+        right: 39.1%;
+    }
+    #banner1 .carousel-control-prev {
+        left: 40.7%;
+    }
+    #myCarousel .carousel-control-next {
+        right: 39.1%;
+    }
+    #myCarousel .carousel-control-prev {
+        left: 40.7%;
+    }
+    .titlepage h2 {
+        font-size: 37px;
+        line-height: 45px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .full_bg {
+        height: 100%;
+    }
+    .grid {
+        display: grid;
+    }
+    .order {
+        order: -1;
+    }
+    .mar_right {
+        margin-right: 0px;
+    }
+    .about_img,
+    .agency {
+        margin-top: 30px;
+    }
+    #banner1 .carousel-control-prev,
+    #banner1 .carousel-control-next {
+        top: 103%;
+    }
+    #banner1 .carousel-control-next {
+        right: 36.7%;
+    }
+    #banner1 .carousel-control-prev {
+        left: 36.7%;
+    }
+    #myCarousel .carousel-control-prev,
+    #myCarousel .carousel-control-next {
+        top: 108%;
+    }
+    #myCarousel .carousel-control-next {
+        right: 36.7%;
+    }
+    #myCarousel .carousel-control-prev {
+        left: 36.7%;
+    }
+    .titlepage h2 {
+        font-size: 37px;
+        line-height: 45px;
+    }
+    .pro_file span {
+        padding-bottom: 30px;
+    }
+    .d_none {
+        display: none !important;
+    }
+    .agency {
+        margin-top: 30px;
+    }
+    .latest {
+        max-width: 377px;
+        margin: 0 auto;
+        margin-bottom: 55px;
+    }
+    /* navbar css for mobile start */
+    .nav-toggler {
+        display: block;
+        position: absolute;
+        right: 15px;
+        z-index: 99999;
+    }
+    .site-navbar {
+        min-height: 60px;
+    }
+    .site-navbar ul {
+        position: absolute;
+        width: 100%;
+        left: -15px;
+        top: 60px;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fff;
+        max-height: 0;
+        overflow: hidden;
+        transition: .3s;
+        z-index: 99999;
+        box-shadow: 0 0 10px rgb(192, 190, 182);
+    }
+    .site-navbar ul li {
+        width: 100%;
+        text-align: left;
+        padding-right: 0;
+    }
+    .site-navbar ul li a {
+        padding: 25px 25px 0px 25px;
+    }
+    .site-navbar ul.open {
+        max-height: 100vh;
+        padding-bottom: 25px;
+        overflow: visible;
+    }
+    /* navbar css for mobile end */
+}
+
+@media (max-width: 575px) {
+    .full_bg {
+        height: 100%;
+    }
+    .slider_main {
+        padding: 50px 0 80px 0;
+    }
+    .logo {
+        text-align: left;
+    }
+    .about_img,
+    .agency {
+        margin-top: 30px;
+    }
+    .creative .read_more {
+        margin-bottom: 5px;
+        margin-right: 0;
+    }
+    .mar_right {
+        margin-right: 0px;
+    }
+    #banner1 .carousel-control-prev,
+    #banner1 .carousel-control-next {
+        top: 103%;
+    }
+    #banner1 .carousel-control-next {
+        right: 25.7%;
+    }
+    #banner1 .carousel-control-prev {
+        left: 25.7%;
+    }
+    #myCarousel .carousel-control-prev,
+    #myCarousel .carousel-control-next {
+        top: 108%;
+    }
+    #myCarousel .carousel-control-next {
+        right: 25.7%;
+    }
+    #myCarousel .carousel-control-prev {
+        left: 25.7%;
+    }
+    .titlepage h2 {
+        font-size: 37px;
+        line-height: 45px;
+    }
+    .pro_file span {
+        padding-bottom: 30px;
+    }
+    .grid {
+        display: grid;
+    }
+    .order {
+        order: -1;
+    }
+    .latest {
+        max-width: 317px;
+        margin: 0 auto;
+        margin-bottom: 55px;
+    }
+    .titlepage h2 {
+        line-height: 40px;
+        font-size: 28px;
+    }
+    .d_none {
+        display: none !important;
+    }
+    /* navbar css for mobile start */
+    .navbar-area {
+        margin-top: -67px;
+    }
+    .nav-toggler {
+        display: block;
+        position: absolute;
+        right: 15px;
+        z-index: 99999;
+    }
+    .site-navbar {
+        min-height: 60px;
+    }
+    .site-navbar ul {
+        position: absolute;
+        width: 100%;
+        left: 0px;
+        top: 0px;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fff;
+        max-height: 0;
+        overflow: hidden;
+        transition: .3s;
+        z-index: 99999;
+        box-shadow: 0 0 10px rgb(192, 190, 182);
+    }
+    .site-navbar ul li {
+        width: 100%;
+        text-align: left;
+        padding-right: 0;
+    }
+    .site-navbar ul li a {
+        padding: 25px 25px 0px 25px;
+    }
+    .site-navbar ul.open {
+        max-height: 100vh;
+        padding-bottom: 25px;
+        overflow: visible;
+    }
+}
